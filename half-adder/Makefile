@@ -1,4 +1,4 @@
-NAME = Task1
+NAME = half-adder
 
 SOURCE = $(wildcard *.v)
 
