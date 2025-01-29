@@ -17,7 +17,7 @@ module xor_TB();
         for (integer i = 0; i < 16; i = i + 1) begin
             {a, b, c, d} = i;
             #10;
-            $display("a=%b b=%b c=%b d=%b -> a^b=%b", a, b, c, d, q);
+            $display("a=%b b=%b c=%b d=%b -> (a & b) ^ (c & d)=%b", a, b, c, d, q);
         end
 
         $finish;
