@@ -4,7 +4,7 @@ SOURCE = $(wildcard *.v)
 
 WAVEFORM = waveform.vcd
 
-all : run view
+all : run
 
 run : compile
 	vvp $(NAME)
