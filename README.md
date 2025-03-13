@@ -21,20 +21,20 @@ The provided `Makefile` automates the simulation process:
 
 - **Compile and run** a solution:  
   ```sh
-  make PROBLEM=<problem_number>
+  make
   ```
   Example for problem 4.3:  
   ```sh
-  make PROBLEM=4_3
+  make
   ```
 
 - **Generate and open the waveform** for visualization:  
   ```sh
-  make visualize PROBLEM=<problem_number>
+  make view
   ```
   Example:  
   ```sh
-  make visualize PROBLEM=4_3
+  make view
   ```  
 
 ## 🔍 Features  
