@@ -1,4 +1,4 @@
-NAME = Task1
+NAME = 7segment_display
 
 SOURCE = $(wildcard *.v)
 
